@@ -1,0 +1,59 @@
+Script started on 2025-07-11 16:21:33+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="169" LINES="18"]
+[?25l[?7l[0m[31m[1m            .-/+oossssoo+/-.
+        `:+ssssssssssssssssss+:`
+      -+ssssssssssssssssssyyssss+-
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
+   /sssssssssss[37m[0m[1mhdmmNNmmyNMMMMh[0m[31m[1mssssss/
+  +sssssssss[37m[0m[1mhm[0m[31m[1myd[37m[0m[1mMMMMMMMNddddy[0m[31m[1mssssssss+
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhmNMMMNh[0m[31m[1mssssssss/
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1mssssssssssssss[37m[0m[1mhmmmh[0m[31m[1mssssssso
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1msssssssssssssshmmmh[0m[31m[1mssssssso
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhdNMMMNh[0m[31m[1mssssssss/
+  +sssssssss[37m[0m[1mdm[0m[31m[1myd[37m[0m[1mMMMMMMMMddddy[0m[31m[1mssssssss+
+   /sssssssssss[37m[0m[1mhdmNNNNmyNMMMMh[0m[31m[1mssssss/
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
+      -+sssssssssssssssss[37m[0m[1myyy[0m[31m[1mssss+-
+        `:+ssssssssssssssssss+:`
+            .-/+oossssoo+/-.[0m
+[20A[9999999D[43C[0m[1m[31m[1mdimitriy[0m@[31m[1mdimitriy-ThinkPad-X1-Carbon-Gen-10[0m 
+[43C[0m-------------------------------------------[0m 
+[43C[0m[31m[1mOS[0m[0m:[0m Ubuntu 22.04.5 LTS x86_64[0m 
+[43C[0m[31m[1mHost[0m[0m:[0m 21CBCTO1WW ThinkPad X1 Carbon Gen 10[0m 
+[43C[0m[31m[1mKernel[0m[0m:[0m 6.8.0-60-generic[0m 
+[43C[0m[31m[1mUptime[0m[0m:[0m 14 days, 23 hours, 42 mins[0m 
+[43C[0m[31m[1mPackages[0m[0m:[0m 3451 (dpkg), 46 (snap)[0m 
+[43C[0m[31m[1mShell[0m[0m:[0m bash 5.1.16[0m 
+[43C[0m[31m[1mResolution[0m[0m:[0m 1920x1200[0m 
+[43C[0m[31m[1mDE[0m[0m:[0m Unity[0m 
+[43C[0m[31m[1mWM[0m[0m:[0m Mutter[0m 
+[43C[0m[31m[1mWM Theme[0m[0m:[0m Adwaita[0m 
+[43C[0m[31m[1mTheme[0m[0m:[0m Yaru-magenta-dark [GTK2/3][0m 
+[43C[0m[31m[1mIcons[0m[0m:[0m Yaru-magenta [GTK2/3][0m 
+[43C[0m[31m[1mTerminal[0m[0m:[0m vscode[0m 
+[43C[0m[31m[1mCPU[0m[0m:[0m 12th Gen Intel i7-1270P (16) @ 4.800GHz[0m 
+[43C[0m[31m[1mGPU[0m[0m:[0m Intel Alder Lake-P[0m 
+[43C[0m[31m[1mMemory[0m[0m:[0m 11451MiB / 31762MiB[0m 
+
+[43C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[43C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
+
+
+[?25h[?7h[?2004h[01;32mdimitriy[00;33m@[01;34mdimitriy-ThinkPad-X1-Carbon-Gen-10[00m:|[01;31m16:21:34[00m
+[00;35m~/Coding/FULL_STACK_WEB_DEV_ALL_PARTS/part12-containers-applications[00m
+[00;36m$ docker un[K[Krun -it bash [K[K[K[K[Kubuntu bash
+[?2004l[?2004h]0;root@6ab271e88d59: /root@6ab271e88d59:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@6ab271e88d59: /root@6ab271e88d59:/# touch /user  r/src/app/index.js
+[?2004l[?2004h]0;root@6ab271e88d59: /root@6ab271e88d59:/# [Kls /usr/src/app/index.js
+[?2004l/usr/src/app/index.js
+[?2004h]0;root@6ab271e88d59: /root@6ab271e88d59:/# exit
+[?2004lexit
+[?2004h[01;32mdimitriy[00;33m@[01;34mdimitriy-ThinkPad-X1-Carbon-Gen-10[00m:|[01;31m16:22:22[00m
+[00;35m~/Coding/FULL_STACK_WEB_DEV_ALL_PARTS/part12-containers-applications[00m
+[00;36m$ exit
+[?2004lexit
+
+Script done on 2025-07-11 16:22:27+02:00 [COMMAND_EXIT_CODE="0"]
