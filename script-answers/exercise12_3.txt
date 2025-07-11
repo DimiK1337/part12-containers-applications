@@ -1,0 +1,58 @@
+Script started on 2025-07-11 16:35:16+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="169" LINES="18"]
+[?25l[?7l[0m[31m[1m            .-/+oossssoo+/-.
+        `:+ssssssssssssssssss+:`
+      -+ssssssssssssssssssyyssss+-
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
+   /sssssssssss[37m[0m[1mhdmmNNmmyNMMMMh[0m[31m[1mssssss/
+  +sssssssss[37m[0m[1mhm[0m[31m[1myd[37m[0m[1mMMMMMMMNddddy[0m[31m[1mssssssss+
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhmNMMMNh[0m[31m[1mssssssss/
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1mssssssssssssss[37m[0m[1mhmmmh[0m[31m[1mssssssso
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1msssssssssssssshmmmh[0m[31m[1mssssssso
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhdNMMMNh[0m[31m[1mssssssss/
+  +sssssssss[37m[0m[1mdm[0m[31m[1myd[37m[0m[1mMMMMMMMMddddy[0m[31m[1mssssssss+
+   /sssssssssss[37m[0m[1mhdmNNNNmyNMMMMh[0m[31m[1mssssss/
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
+      -+sssssssssssssssss[37m[0m[1myyy[0m[31m[1mssss+-
+        `:+ssssssssssssssssss+:`
+            .-/+oossssoo+/-.[0m
+[20A[9999999D[43C[0m[1m[31m[1mdimitriy[0m@[31m[1mdimitriy-ThinkPad-X1-Carbon-Gen-10[0m 
+[43C[0m-------------------------------------------[0m 
+[43C[0m[31m[1mOS[0m[0m:[0m Ubuntu 22.04.5 LTS x86_64[0m 
+[43C[0m[31m[1mHost[0m[0m:[0m 21CBCTO1WW ThinkPad X1 Carbon Gen 10[0m 
+[43C[0m[31m[1mKernel[0m[0m:[0m 6.8.0-60-generic[0m 
+[43C[0m[31m[1mUptime[0m[0m:[0m 14 days, 23 hours, 55 mins[0m 
+[43C[0m[31m[1mPackages[0m[0m:[0m 3451 (dpkg), 46 (snap)[0m 
+[43C[0m[31m[1mShell[0m[0m:[0m bash 5.1.16[0m 
+[43C[0m[31m[1mResolution[0m[0m:[0m 1920x1200[0m 
+[43C[0m[31m[1mDE[0m[0m:[0m Unity[0m 
+[43C[0m[31m[1mWM[0m[0m:[0m Mutter[0m 
+[43C[0m[31m[1mWM Theme[0m[0m:[0m Adwaita[0m 
+[43C[0m[31m[1mTheme[0m[0m:[0m Yaru-magenta-dark [GTK2/3][0m 
+[43C[0m[31m[1mIcons[0m[0m:[0m Yaru-magenta [GTK2/3][0m 
+[43C[0m[31m[1mTerminal[0m[0m:[0m vscode[0m 
+[43C[0m[31m[1mCPU[0m[0m:[0m 12th Gen Intel i7-1270P (16) @ 4.800GHz[0m 
+[43C[0m[31m[1mGPU[0m[0m:[0m Intel Alder Lake-P[0m 
+[43C[0m[31m[1mMemory[0m[0m:[0m 11721MiB / 31762MiB[0m 
+
+[43C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[43C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
+
+
+[?25h[?7h[?2004h[01;32mdimitriy[00;33m@[01;34mdimitriy-ThinkPad-X1-Carbon-Gen-10[00m:|[01;31m16:35:17[00m
+[00;35m~/Coding/FULL_STACK_WEB_DEV_ALL_PARTS/part12-containers-applications[00m
+[00;36m$ docker start -i [7m6ab271e88d59[27m6ab271e88d59
+[?2004l[?2004h]0;root@6ab271e88d59: /root@6ab271e88d59:/# nano /usr/src/app/index.js
+[?2004l[?2004h[?1049h[22;0;0t[1;18r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[16;78H(B[0;7m[ Reading... ](B[m[16;77H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2 [61b/usr/src/app/index.js [70b [1;168H(B[m[17d(B[0;7m^G(B[m Help[17;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[17;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[17;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[18d(B[0;7m^X(B[m Exit[18;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[18;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[18;113H(B[0;7mM-6(B[m Copy[18;129H(B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[2d[?12l[?25h[?25l[1;99H(B[0;7m*[168G(B[m[?12l[?25h[2dc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25h([?25l[?12l[?25h'[?25l[?12l[?25hH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hw[?25l[16d[K[?12l[?25h[2;19H [?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h W[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h[2;13H(B[0;1m[35m'Hello World'[39m(B[m[?25l[?12l[?25h)[?25l[17;17H[26X[17;43H(B[0;7mM-D(B[m DOS Format[17;65H [9b[81G    (B[0;7mM-A(B[m Append [9b[17;113H[14X[17;127H(B[0;7mM-B(B[m Backup File[K[18;2H(B[0;7mC(B[m Cancel[17G[26X[18;43H(B[0;7mM-M(B[m Mac Format[18;65H [9b[81G    (B[0;7mM-P(B[m Prepend [8b[18;113H [7b[127G(B[0;7m^T(B[m Browse[K[16d(B[0;7mFile Name to Write: /usr/src/app/index.js [126b [16;42H(B[m[?12l[?25h[?25l[16;77H[1K (B[0;7m[ Writing... ](B[m[K[1;99H(B[0;7m [168G(B[m[16;77H(B[0;7m[ Wrote 1 line ](B[m[17;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut  [17;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[17;113H(B[0;7mM-A(B[m Set Mark    (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[18;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste[18;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[18;113H(B[0;7mM-6(B[m Copy[127G  (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[?12l[?25h[2;27H[?25l[16d[J[18d[?12l[?25h[18;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@6ab271e88d59: /root@6ab271e88d59:/# [Kcat /usr/src/app/index.js
+[?2004lconsole.log('Hello World')
+[?2004h]0;root@6ab271e88d59: /root@6ab271e88d59:/# exit
+[?2004lexit
+[?2004h[01;32mdimitriy[00;33m@[01;34mdimitriy-ThinkPad-X1-Carbon-Gen-10[00m:|[01;31m16:36:18[00m
+[00;35m~/Coding/FULL_STACK_WEB_DEV_ALL_PARTS/part12-containers-applications[00m
+[00;36m$ exit
+[?2004lexit
+
+Script done on 2025-07-11 16:36:20+02:00 [COMMAND_EXIT_CODE="0"]
