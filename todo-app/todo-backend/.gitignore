@@ -60,5 +60,6 @@ typings/
 # next.js build output
 .next
 
-# Mongo volume data
+# Volume data
 mongo_data
+redis_data
