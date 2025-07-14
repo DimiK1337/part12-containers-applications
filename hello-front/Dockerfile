@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:20 AS build-stage
 
 WORKDIR /usr/src/app
 
@@ -8,6 +8,11 @@ RUN ["npm", "ci"]
 
 RUN ["npm", "run", "build"]
 
-RUN ["npm", "i", "-g", "serve"]
+# This is a new (unnamed) stage, everything before this is gone, except for the files we want to COPY
 
-CMD ["serve", "dist"]
+FROM nginx:1.25-alpine
+
+# COPY the dist dir from the build-stage to usr/share/nginx/html
+# The target location here was found from the Docker hub page
+
+COPY --from=build-stage /usr/src/app/dist /usr/share/nginx/html
