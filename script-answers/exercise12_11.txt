@@ -1,0 +1,87 @@
+Script started on 2025-07-14 15:31:23+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="152" LINES="25"]
+[?25l[?7l[0m[31m[1m            .-/+oossssoo+/-.
+        `:+ssssssssssssssssss+:`
+      -+ssssssssssssssssssyyssss+-
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
+   /sssssssssss[37m[0m[1mhdmmNNmmyNMMMMh[0m[31m[1mssssss/
+  +sssssssss[37m[0m[1mhm[0m[31m[1myd[37m[0m[1mMMMMMMMNddddy[0m[31m[1mssssssss+
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhmNMMMNh[0m[31m[1mssssssss/
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1mssssssssssssss[37m[0m[1mhmmmh[0m[31m[1mssssssso
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1msssssssssssssshmmmh[0m[31m[1mssssssso
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhdNMMMNh[0m[31m[1mssssssss/
+  +sssssssss[37m[0m[1mdm[0m[31m[1myd[37m[0m[1mMMMMMMMMddddy[0m[31m[1mssssssss+
+   /sssssssssss[37m[0m[1mhdmNNNNmyNMMMMh[0m[31m[1mssssss/
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
+      -+sssssssssssssssss[37m[0m[1myyy[0m[31m[1mssss+-
+        `:+ssssssssssssssssss+:`
+            .-/+oossssoo+/-.[0m
+[20A[9999999D[43C[0m[1m[31m[1mdimitriy[0m@[31m[1mdimitriy-ThinkPad-X1-Carbon-Gen-10[0m 
+[43C[0m-------------------------------------------[0m 
+[43C[0m[31m[1mOS[0m[0m:[0m Ubuntu 22.04.5 LTS x86_64[0m 
+[43C[0m[31m[1mHost[0m[0m:[0m 21CBCTO1WW ThinkPad X1 Carbon Gen 10[0m 
+[43C[0m[31m[1mKernel[0m[0m:[0m 6.8.0-60-generic[0m 
+[43C[0m[31m[1mUptime[0m[0m:[0m 17 days, 22 hours, 51 mins[0m 
+[43C[0m[31m[1mPackages[0m[0m:[0m 3451 (dpkg), 46 (snap)[0m 
+[43C[0m[31m[1mShell[0m[0m:[0m bash 5.1.16[0m 
+[43C[0m[31m[1mResolution[0m[0m:[0m 1920x1200[0m 
+[43C[0m[31m[1mDE[0m[0m:[0m Unity[0m 
+[43C[0m[31m[1mWM[0m[0m:[0m Mutter[0m 
+[43C[0m[31m[1mWM Theme[0m[0m:[0m Adwaita[0m 
+[43C[0m[31m[1mTheme[0m[0m:[0m Yaru-magenta-dark [GTK2/3][0m 
+[43C[0m[31m[1mIcons[0m[0m:[0m Yaru-magenta [GTK2/3][0m 
+[43C[0m[31m[1mTerminal[0m[0m:[0m vscode[0m 
+[43C[0m[31m[1mCPU[0m[0m:[0m 12th Gen Intel i7-1270P (16) @ 4.800GHz[0m 
+[43C[0m[31m[1mGPU[0m[0m:[0m Intel Alder Lake-P[0m 
+[43C[0m[31m[1mMemory[0m[0m:[0m 12450MiB / 31762MiB[0m 
+
+[43C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[43C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
+
+
+[?25h[?7h[?2004h[01;32mdimitriy[00;33m@[01;34mdimitriy-ThinkPad-X1-Carbon-Gen-10[00m:|[01;31m15:31:24[00m
+[00;35m~/Coding/FULL_STACK_WEB_DEV_ALL_PARTS/part12-containers-applications/todo-app/todo-backend[00m
+[00;36m$ exit[C[Cdocker exec -it 7d98ee24cc97 mongosh -u root -p example[C[C[C[C[C[C[C[C[Ccontainer ls[Kmpose -f docker-compose.dev.yml up -d
+[?2004l[1A[1B[0G[?25l[+] Running 2/0
+[34m ⠿ Network todo-backend_default      Created                                                                                                       0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                                       0.0s
+[0m[37m ⠿ Container todo-backend-redis-1    Starting                                                                                                      0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                                                      0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/4
+[34m ⠿ Network todo-backend_default      Created                                                                                                       0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                                       0.0s
+[0m[37m ⠿ Container todo-backend-redis-1    Starting                                                                                                      0.1s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                                                      0.1s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 4/4[0m
+[34m ⠿ Network todo-backend_default      Created                                                                                                       0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                                       0.0s
+[0m[34m ⠿ Container todo-backend-redis-1    Started                                                                                                       0.2s
+[0m[34m ⠿ Container todo-backend-mongo-1    Started                                                                                                       0.2s
+[0m[?25h[?2004h[01;32mdimitriy[00;33m@[01;34mdimitriy-ThinkPad-X1-Carbon-Gen-10[00m:|[01;31m15:31:30[00m
+[00;35m~/Coding/FULL_STACK_WEB_DEV_ALL_PARTS/part12-containers-applications/todo-app/todo-backend[00m
+[00;36m$ docker exec -it [K[K[K[K[K[K[K[K[Kcontainer s[Kls
+[?2004lCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                           NAMES
+9bef8e2414bc   mongo     "docker-entrypoint.s…"   13 seconds ago   Up 12 seconds   0.0.0.0:3456->27017/tcp, [::]:3456->27017/tcp   todo-backend-mongo-1
+18f6d394a1cc   redis     "docker-entrypoint.s…"   13 seconds ago   Up 12 seconds   0.0.0.0:6378->6379/tcp, [::]:6378->6379/tcp     todo-backend-redis-1
+118dd4efd4ed   nginx     "/docker-entrypoint.…"   53 minutes ago   Up 53 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp         hopeful_hugle
+[?2004h[01;32mdimitriy[00;33m@[01;34mdimitriy-ThinkPad-X1-Carbon-Gen-10[00m:|[01;31m15:31:43[00m
+[00;35m~/Coding/FULL_STACK_WEB_DEV_ALL_PARTS/part12-containers-applications/todo-app/todo-backend[00m
+[00;36m$ docker exec -it [7m18f6d394a1cc[27m18f6d394a1cc [7mredis-cli[27mredis-cli
+[?2004l127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+(empty array)
+127.0.0.1:6379> [0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "added_todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6379> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6379> GET add[0;90;49m key[0m[23C[0K127.0.0.1:6379> GET adde[0;90;49m key[0m[24C[0K127.0.0.1:6379> GET added[0;90;49m key[0m[25C[0K127.0.0.1:6379> GET added_[0;90;49m key[0m[26C[0K127.0.0.1:6379> GET added_t[0;90;49m key[0m[27C[0K127.0.0.1:6379> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6379> GET added_tod[0;90;49m key[0m[29C[0K127.0.0.1:6379> GET added_todo[0;90;49m key[0m[30C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"1"
+127.0.0.1:6379> [0K127.0.0.1:6379> S[17C[0K127.0.0.1:6379> SE[18C[0K127.0.0.1:6379> SET[19C[0K127.0.0.1:6379> SET [0;90;49mkey value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[20C[0K127.0.0.1:6379> SET a[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[21C[0K127.0.0.1:6379> SET ad[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[22C[0K127.0.0.1:6379> SET add[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[23C[0K127.0.0.1:6379> SET adde[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[24C[0K127.0.0.1:6379> SET added[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[25C[0K127.0.0.1:6379> SET added_[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[26C[0K127.0.0.1:6379> SET added_t[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[27C[0K127.0.0.1:6379> SET added_to[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[28C[0K127.0.0.1:6379> SET added_tod[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[29C[0K127.0.0.1:6379> SET added_todo[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[30C[0K127.0.0.1:6379> SET added_todos[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[31C[0K127.0.0.1:6379> SET added_todos [0;90;49mvalue [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[32C[0K127.0.0.1:6379> SET added_todos 9[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[33C[0K127.0.0.1:6379> SET added_todos 90[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[34C[0K127.0.0.1:6379> SET added_todos 900[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[35C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[36C[0K127.0.0.1:6379> SET added_todos 9001[36C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-milliseconds|KEEPTTL][0m[36C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"9002"
+127.0.0.1:6379> [0K127.0.0.1:6379> D[17C[0K127.0.0.1:6379> DE[18C[0K127.0.0.1:6379> DEL[19C[0K127.0.0.1:6379> DEL [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6379> DEL a[0;90;49m key [key ...][0m[21C[0K127.0.0.1:6379> DEL ad[0;90;49m key [key ...][0m[22C[0K127.0.0.1:6379> DEL add[0;90;49m key [key ...][0m[23C[0K127.0.0.1:6379> DEL adde[0;90;49m key [key ...][0m[24C[0K127.0.0.1:6379> DEL added[0;90;49m key [key ...][0m[25C[0K127.0.0.1:6379> DEL added_[0;90;49m key [key ...][0m[26C[0K127.0.0.1:6379> DEL added_t[0;90;49m key [key ...][0m[27C[0K127.0.0.1:6379> DEL added_to[0;90;49m key [key ...][0m[28C[0K127.0.0.1:6379> DEL added_tod[0;90;49m key [key ...][0m[29C[0K127.0.0.1:6379> DEL added_todo[0;90;49m key [key ...][0m[30C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:63
