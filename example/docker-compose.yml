@@ -1,0 +1,6 @@
+services:
+  app: # The name of the service, can be anything
+    image: express-server # Declares which image/tag to use when building/pulling 
+    build: . # Declares where to build if image is not found
+    ports: # Declares ports to publish
+      - 3000:3000 
