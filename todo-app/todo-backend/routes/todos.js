@@ -35,15 +35,17 @@ singleRouter.delete('/', async (req, res) => {
 
 /* GET todo. */
 singleRouter.get('/', async (req, res) => {
-  res.sendStatus(405); // Implement this
+  if (!req.todo) return res.status(404).send({ error: 'Couldn\'t find the todo to update' })
+  res.send(req.todo)
 });
 
 /* PUT todo. */
 singleRouter.put('/', async (req, res) => {
-  res.sendStatus(405); // Implement this
+  const updatedTodo = await Todo.findByIdAndUpdate(req.todo._id, req.body, { new: true, runValidators: true })
+  if (!updatedTodo) return res.status(404).send({ error: 'Couldn\'t find the todo to update' })
+  res.send(updatedTodo)
 });
 
 router.use('/:id', findByIdMiddleware, singleRouter)
-
 
 module.exports = router;
