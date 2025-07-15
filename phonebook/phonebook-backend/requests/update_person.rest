@@ -1,0 +1,13 @@
+GET http://localhost:3001/api/persons/
+
+###
+PUT http://localhost:3001/api/persons/685d6d27520f3b17c6cb6fdb
+Content-Type: application/json
+
+{
+    "name": "ALEXIS TEXAS",
+    "number": "updated number"
+}
+
+###
+GET http://localhost:3001/info
