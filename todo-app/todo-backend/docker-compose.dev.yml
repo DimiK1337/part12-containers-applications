@@ -36,6 +36,5 @@ services:
       - ./redis_data:/data
     container_name: redis
 
-
 volumes:
   mongo_data:
