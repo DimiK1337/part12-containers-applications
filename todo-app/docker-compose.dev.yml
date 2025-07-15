@@ -1,0 +1,23 @@
+services:
+  client:
+    image: todo-frontend
+    build:
+      context: ./todo-frontend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./todo-frontend:/usr/src/app
+    ports:
+      - 3000:3000
+    environment:
+      - VITE_BACKEND_URL=http://localhost:3001
+    container_name: todo-frontend
+
+  nginx:
+    image: nginx:1.20.1
+    ports:
+      - 8080:80
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    container_name: reverse-proxy
+    depends_on:
+      - client # Wait for the frontend container to be started

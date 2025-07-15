@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: dev.Dockerfile
     ports:
-      - 3000:3000
+      - 3001:3001
     environment:
       - REDIS_URL=redis://redis:6379
       - MONGO_URL=mongodb://the_username:the_password@mongo:27017/the_database

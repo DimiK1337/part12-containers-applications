@@ -3,4 +3,4 @@ services:
     image: todo-backend
     build: .
     ports:
-      - 3123:3000
+      - 3123:3001
