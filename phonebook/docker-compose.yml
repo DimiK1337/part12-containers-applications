@@ -1,0 +1,27 @@
+services:
+  client:
+    image: phonebook-frontend
+    build:
+      context: ./phonebook-frontend
+    environment:
+      - VITE_BACKEND_URL=/api
+    container_name: phonebook-frontend
+
+  server:
+    image: phonebook-backend
+    build:
+      context: ./phonebook-backend
+    env_file:
+      - ./phonebook-backend/.env # Loads the MONGO_URI
+    container_name: phonebook-backend
+  
+  nginx:
+    image: nginx:1.20.1
+    ports:
+      - 8080:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    container_name: phonebook-reverse-proxy
+    depends_on:
+      - client # Wait for the frontend container to be started
+      - server
