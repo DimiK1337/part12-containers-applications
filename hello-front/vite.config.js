@@ -8,6 +8,7 @@ export default defineConfig({
     host: true,
     origin: '*',
     strictPort: true,
-    cors: true
+    cors: true,
+    allowedHosts: ['localhost', 'app']
   }
 })
